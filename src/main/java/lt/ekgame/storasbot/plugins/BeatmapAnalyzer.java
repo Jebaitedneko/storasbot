@@ -187,7 +187,7 @@ public class BeatmapAnalyzer {
 
 	private TimePeriodValuesCollection getStrainData(int bucket) {
 		TimePeriodValuesCollection collection = new TimePeriodValuesCollection();
-		Difficulty<?, ?> difficulty = beatmap.getDifficulty();
+		Difficulty difficulty = beatmap.getDifficulty();
 		
 		if (difficulty instanceof OsuDifficulty) {
 			OsuDifficulty osuDiff = (OsuDifficulty) difficulty;
