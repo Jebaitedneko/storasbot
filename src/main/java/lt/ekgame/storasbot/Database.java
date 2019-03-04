@@ -30,11 +30,11 @@ public class Database {
 	private DBI dbi;
 
 	public Database(Config config) throws SQLException {
-		this.host     = config.getString("database.host");
-		this.port     = config.getString("database.port");
-		this.database = config.getString("database.dtbs");
-		this.username = config.getString("database.user");
-		this.password = config.getString("database.pass");
+		this.host     = System.getenv("DBHOST");
+		this.port     = System.getenv("DBPORT");
+		this.database = System.getenv("DBDATABASE");
+		this.username = System.getenv("DBUSER");
+		this.password = System.getenv("DBPASS");
 		
 		MariaDbDataSource ds = new MariaDbDataSource();
 		ds.setUrl("jdbc:mysql://" + host + ":" + port + "/" + database + "?user=" + username + "&password=" + password);
