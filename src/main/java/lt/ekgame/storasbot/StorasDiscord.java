@@ -56,7 +56,7 @@ public class StorasDiscord {
 			osuUserCatche = new OsuUserCatche();
 			guildSettings = new GuildSettings(database);
 			
-			String token = config.getString("api.discord");
+			String token = System.getenv("TOKEN");
 			operators = config.getStringList("general.operators");
 			client = new JDABuilder().setBotToken(token)
 				.addListener(new OsuTracker(osuUserCatche))
