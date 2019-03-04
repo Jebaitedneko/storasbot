@@ -49,7 +49,7 @@ public class StorasDiscord {
 			else
 				SimpleLog.LEVEL = Level.INFO;
 			
-			config = ConfigFactory.parseFile(new File(args[0])); // Very important that this is first
+			config = ConfigFactory.parseFile(new File("~/app/src/main/java/config.conf")); // Very important that this is first
 			database = new Database(config);
 			database.testConnection();
 			osuApi = new OsuApi(config);
