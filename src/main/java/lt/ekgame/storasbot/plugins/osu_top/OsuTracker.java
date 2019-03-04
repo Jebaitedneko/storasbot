@@ -35,9 +35,8 @@ public class OsuTracker extends Thread implements EventListener {
 	
 	@Override
 	public void onEvent(Event event) {
-		if (true) {
+	
 			start();
-		}
 	}
 
 	public void run() {
