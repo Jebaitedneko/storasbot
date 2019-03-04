@@ -143,7 +143,7 @@ public class BeatmapAnalyzer {
 		double current = ACC_BEGIN;
 		while (current <= 1) {
 			if (current > 1) break;
-			Performance performance = difficulty.getPerformance(OsuScore.of(beatmap).accuracy(current).build());
+			Performance performance = difficulty.getPerformance(Score.of(beatmap).accuracy(current).build());
 			series.add(current, performance.getPerformance());
 			current += ACC_STEP;
 		}
@@ -155,7 +155,7 @@ public class BeatmapAnalyzer {
 		TaikoDifficulty difficulty = beatmap.getDifficulty(mods);
 		double current = ACC_BEGIN;
 		while (current <= 1) {
-			Performance performance = difficulty.getPerformance(TaikoScore.of(beatmap).accuracy(current).build());
+			Performance performance = difficulty.getPerformance(Score.of(beatmap).accuracy(current).build());
 			series.add(current, performance.getPerformance());
 			current += ACC_STEP;
 		}
@@ -172,7 +172,7 @@ public class BeatmapAnalyzer {
 		ManiaDifficulty difficulty = beatmap.getDifficulty(mods);
 		double current = ACC_BEGIN;
 		while (current <= 1) {
-			Performance performance = difficulty.getPerformance(ManiaScore.of(beatmap).accuracy(current).build());
+			Performance performance = difficulty.getPerformance(Score.of(beatmap).accuracy(current).build());
 			series.add(current, performance.getPerformance());
 			current += ACC_STEP;
 		}
