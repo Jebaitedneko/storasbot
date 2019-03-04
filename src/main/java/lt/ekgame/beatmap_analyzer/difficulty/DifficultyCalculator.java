@@ -9,6 +9,6 @@ public interface DifficultyCalculator {
 	
 	public Difficulty calculate(Mods mods, Beatmap beatmap);
 	
-	public Double calculateDifficulty(List<Double> strains);
+	public double calculateDifficulty(List<Double> strains);
 
 }
