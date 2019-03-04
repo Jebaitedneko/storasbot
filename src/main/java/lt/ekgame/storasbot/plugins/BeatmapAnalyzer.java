@@ -51,7 +51,7 @@ public class BeatmapAnalyzer {
 	private static final double ACC_STEP = 0.005;
 	
 	private Beatmap beatmap;
-	private DifficultyCalculator<?,?> calculator;
+	private DifficultyCalculator calculator;
 	
 	public BeatmapAnalyzer(Beatmap beatmap) {
 		this.beatmap = beatmap;
