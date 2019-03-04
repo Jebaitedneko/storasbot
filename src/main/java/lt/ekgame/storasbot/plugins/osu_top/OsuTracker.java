@@ -36,9 +36,7 @@ public class OsuTracker extends Thread implements EventListener {
 	@Override
 	public void onEvent(Event event) {
 		
-		if (event instanceof ReadyEvent && StorasDiscord.getConfig().getBoolean("tracker.enabled")) {
 			start();
-		}
 	}
 
 	public void run() {
