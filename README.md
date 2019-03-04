@@ -14,25 +14,25 @@ Steps to deploy the bot in Heroku:
 3. Set up the Environment Variables as follows:
 
 
-    DBDATABASE : Database Name.
+    DBDATABASE   : Database Name.
     
     
-    DBHOST     : Database Host
+    DBHOST       : Database Host
     
     
-    DBPORT     : Database Port.
+    DBPORT       : Database Port.
     
     
-    DBUSER     : Database Username.
+    DBUSER       : Database Username.
     
     
-    DBPASS     : Database Password.
+    DBPASS       : Database Password.
     
     
-    OSU_API    : osu!API Key. (Get it from https://osu.ppy.sh/p/api)
+    OSU_API      : osu!API Key. (Get it from https://osu.ppy.sh/p/api)
     
     
-    TOKEN      : Discord Bot account Token. (Get it from https://discordapp.com/developers/applications/)
+    TOKEN        : Discord Bot account Token. (Get it from https://discordapp.com/developers/applications/)
     
     
 4. Fork this repository.
