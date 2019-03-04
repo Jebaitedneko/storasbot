@@ -8,7 +8,7 @@ import lt.ekgame.beatmap_analyzer.performance.scores.Score;
 import lt.ekgame.beatmap_analyzer.utils.Mod;
 import lt.ekgame.beatmap_analyzer.utils.Mods;
 
-public abstract class Difficulty {
+public abstract class Difficulty<T> {
 	
 	protected Beatmap beatmap;
 	protected Mods mods;
