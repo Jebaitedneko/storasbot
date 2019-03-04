@@ -120,25 +120,24 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.0.1</version>
-				<configuration>
-					<archive>
-						<manifest>
-							<addClasspath>true</addClasspath>
-							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>lt.ekgame.storasbot</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-				<executions>
-					<execution>
-						<id>copy-dependencies</id>
-						<phase>package</phase>
-						<goals><goal>copy-dependencies</goal></goals>
-					</execution>
-				</executions>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-shade-plugin</artifactId>
+		        <version>3.2.1</version>
+		        <executions>
+		         <execution>
+		          <phase>package</phase>
+		          <goals>
+		           <goal>shade</goal>
+		          </goals>
+		          <configuration>
+		           <transformers>
+		            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+		             <mainClass>lt.ekgame.storasbot.StorasDiscord</mainClass>
+                    </transformer>
+                   </transformers>
+                  </configuration>
+                 </execution>
+                </executions>
 			</plugin>
 		</plugins>
 	</build>
