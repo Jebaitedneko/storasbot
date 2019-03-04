@@ -1,4 +1,4 @@
-# storasbot
+# storasbot_reborn
 # A Discord bot for osu! leaderboad tracking and notifications.
 # ALL RIGHTS RESERVED BY THE OWNER: https://github.com/ekgame
 
