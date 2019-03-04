@@ -11,7 +11,7 @@ public class GameChanger extends ListenerAdapter {
 	private String game;
 	
 	public GameChanger(Config config) {
-		game = StorasDiscord.getConfig().getString("general.game");
+		game = StorasDiscord.getConfig().getString("");
 	}
 
 	@Override
