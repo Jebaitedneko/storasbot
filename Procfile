@@ -1,1 +1,1 @@
-bot: java $JAVA_OPTS -cp target/classes:target/dependency/* storasbot
+worker: sh target/bin/worker
