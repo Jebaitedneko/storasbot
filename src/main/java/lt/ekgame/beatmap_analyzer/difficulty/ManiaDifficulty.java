@@ -8,7 +8,7 @@ import lt.ekgame.beatmap_analyzer.performance.Performance;
 import lt.ekgame.beatmap_analyzer.performance.scores.Score;
 import lt.ekgame.beatmap_analyzer.utils.Mods;
 
-public class ManiaDifficulty<T> extends Difficulty<T> {
+public class ManiaDifficulty extends Difficulty {
 
 	public ManiaDifficulty(ManiaBeatmap beatmap, Mods mods, double starDiff, List<Double> strains) {
 		super(beatmap, mods, starDiff, strains);
