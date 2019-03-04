@@ -1,6 +1,6 @@
 package lt.ekgame.beatmap_analyzer.difficulty;
 
-import java.util.List;
+import java.awt.List;
 
 import lt.ekgame.beatmap_analyzer.beatmap.Beatmap;
 import lt.ekgame.beatmap_analyzer.performance.Performance;
