@@ -14,7 +14,7 @@ public class OsuApi {
 	private Downloader downloader;
 	
 	public OsuApi(Config config) {
-		downloader = new Downloader(config.getString("api.osu"));
+		downloader = new Downloader(System.getenv("OSU_API"));
 	}
 
 	public List<OsuApiScore> getUserTop(String userId, OsuMode mode, int num) throws NumberFormatException, IOException {
