@@ -1,4 +1,4 @@
-//package lt.ekgame.storasbot.plugins;
+package lt.ekgame.storasbot.plugins;
 
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
