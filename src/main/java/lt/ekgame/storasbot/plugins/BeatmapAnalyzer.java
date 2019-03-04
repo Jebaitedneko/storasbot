@@ -38,9 +38,10 @@ import lt.ekgame.beatmap_analyzer.difficulty.OsuDifficultyCalculator;
 import lt.ekgame.beatmap_analyzer.difficulty.TaikoDifficulty;
 import lt.ekgame.beatmap_analyzer.difficulty.TaikoDifficultyCalculator;
 import lt.ekgame.beatmap_analyzer.performance.Performance;
-import lt.ekgame.beatmap_analyzer.performance.scores.ManiaScore;
-import lt.ekgame.beatmap_analyzer.performance.scores.OsuScore;
-import lt.ekgame.beatmap_analyzer.performance.scores.TaikoScore;
+import lt.ekgame.beatmap_analyzer.performance.scores.Score;
+//import lt.ekgame.beatmap_analyzer.performance.scores.ManiaScore;
+//import lt.ekgame.beatmap_analyzer.performance.scores.OsuScore;
+//import lt.ekgame.beatmap_analyzer.performance.scores.TaikoScore;
 import lt.ekgame.beatmap_analyzer.utils.Mod;
 import lt.ekgame.beatmap_analyzer.utils.Mods;
 
