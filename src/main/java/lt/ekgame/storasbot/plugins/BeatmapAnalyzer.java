@@ -1,4 +1,4 @@
-package lt.ekgame.storasbot.plugins;
+//package lt.ekgame.storasbot.plugins;
 
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
@@ -29,8 +29,8 @@ import lt.ekgame.beatmap_analyzer.beatmap.ctb.CatchBeatmap;
 import lt.ekgame.beatmap_analyzer.beatmap.mania.ManiaBeatmap;
 import lt.ekgame.beatmap_analyzer.beatmap.osu.OsuBeatmap;
 import lt.ekgame.beatmap_analyzer.beatmap.taiko.TaikoBeatmap;
-//import lt.ekgame.beatmap_analyzer.difficulty.Difficulty;
-//import lt.ekgame.beatmap_analyzer.difficulty.DifficultyCalculator;
+import lt.ekgame.beatmap_analyzer.difficulty.Difficulty;
+import lt.ekgame.beatmap_analyzer.difficulty.DifficultyCalculator;
 import lt.ekgame.beatmap_analyzer.difficulty.ManiaDifficulty;
 import lt.ekgame.beatmap_analyzer.difficulty.ManiaDifficultyCalculator;
 import lt.ekgame.beatmap_analyzer.difficulty.OsuDifficulty;
